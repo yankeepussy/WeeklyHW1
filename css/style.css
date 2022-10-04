@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 p {
   letter-spacing: 2px;
   font-family: "Yanone";
@@ -27,6 +28,7 @@ h3 {
 .box {
   width: 560px;
   margin-top: 25px;
+  margin-right: 50px;
 }
 .text {
   display: flex;
@@ -62,6 +64,7 @@ h3 {
   flex-direction: column;
 }
 .six {
+  width: 250px;
   flex-direction: column-reverse;
 }
 .seven {
@@ -172,7 +175,24 @@ h3 {
   height: 40px;
   margin: 5px;
 }
-.digit{
-    
-    background-color: fdfff5;
+.p {
+  flex-grow: 3;
+}
+.s1 {
+  width: 25px;
+  height: 20px;
+  align-self: flex-start;
+}
+.b {
+  align-self: flex-end;
+}
+.digit {
+  background-color: fdfff5;
+}
+.norm{
+  text-align: center;
+}
+.kl{
+  width: 250px;
+  
 }
