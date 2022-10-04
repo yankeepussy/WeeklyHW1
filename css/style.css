@@ -1,0 +1,178 @@
+@import url(font.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  letter-spacing: 2px;
+  font-family: "Yanone";
+}
+h1 {
+  font-family: "Yanone";
+}
+h3 {
+  font-family: "Yanone";
+}
+.container1 {
+  padding: 30px;
+}
+.container2 {
+  padding: 30px;
+}
+.block {
+  display: flex;
+  margin-bottom: 50px;
+}
+.box {
+  width: 560px;
+  margin-top: 25px;
+}
+.text {
+  display: flex;
+}
+.digit {
+  margin-right: 10px;
+}
+.info {
+  margin-left: 15px;
+}
+.flex1 {
+  display: flex;
+}
+.card {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  background-color: black;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.two {
+  display: inline-flex;
+}
+.three {
+  flex-direction: row;
+}
+.four {
+  flex-direction: row-reverse;
+}
+.five {
+  flex-direction: column;
+}
+.six {
+  flex-direction: column-reverse;
+}
+.seven {
+  flex-wrap: nowrap;
+}
+.eight {
+  flex-wrap: wrap;
+}
+.nine {
+  flex-wrap: wrap-reverse;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.stretch {
+  align-items: stretch;
+}
+.flex-start1 {
+  align-items: flex-start;
+}
+.flex-end1 {
+  align-items: flex-end;
+}
+.center1 {
+  align-items: center;
+}
+.baseline {
+  align-items: baseline;
+}
+.stretch1 {
+  align-content: stretch;
+}
+.flex-start2 {
+  align-content: flex-start;
+}
+.flex-end2 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.center2 {
+  flex-wrap: wrap;
+  align-content: center;
+}
+.space-between1 {
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.space-around1 {
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.order {
+  order: 4;
+}
+.grow1 {
+  flex-grow: 1;
+}
+.grow3 {
+  flex-grow: 3;
+}
+.shrink1 {
+  flex-shrink: 1;
+}
+.shrink0 {
+  flex-shrink: 0;
+}
+.basis {
+  flex-basis: auto;
+}
+.basis240 {
+  flex-basis: 240px;
+}
+.self {
+  align-self: flex-start;
+}
+.content {
+  width: 25px;
+  height: 30px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.s {
+  width: 20px;
+  height: 13px;
+  margin: 5px;
+}
+.m {
+  width: 20px;
+  height: 18px;
+  margin: 5px;
+}
+.l {
+  width: 20px;
+  height: 40px;
+  margin: 5px;
+}
+.digit{
+    
+    background-color: fdfff5;
+}
